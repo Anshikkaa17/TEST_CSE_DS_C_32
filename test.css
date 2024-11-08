@@ -1,0 +1,67 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    background-image: url(//www.codewithrandom.com/wp-content/uploads/2022/10/Number-Guessing-Game-using-JavaScript-3.png;)
+}
+
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.product-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+
+.product-name {
+    font-size: 1.2em;
+    margin: 10px 0 5px 0;
+    color: #333;
+}
+
+.product-price {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+
+.product-description {
+    font-size: 0.9em;
+    color: #666;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.buy-now-button {
+    padding: 10px 20px;
+    background-color: #2aad4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-now-button:hover {
+    background-color: #0056b3;
+}
